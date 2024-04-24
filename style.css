@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary : #1a1818;
+    --secondry : #ebd933;
+}
+
+#body-color {
+    background-color: var(--primary);
+}
+
+#p1 {
+    color: rgb(110, 128, 12);
+}
+
+.text-color {
+    color: var(--secondry);
+}
+
+.content-box button {
+    background-color: #ebd933;
+    padding: 10px;
+    width: 120px;
+    height: 46px;
+    border: none;
+    border-radius: 30px;
+}
+
+.content-box img {
+    transform: .5s ease;
+}
+
+
+
+
+@media only screen and (max-width: 500px) {
+    .content-box {
+        margin-top: 100px;
+    }
+}
